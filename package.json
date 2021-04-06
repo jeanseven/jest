@@ -1,20 +1,23 @@
 {
-  "name": "hexlet-jest",
+  "name": "jestim",
   "version": "1.0.0",
-  "description": "хз",
+  "description": "",
   "main": "index.js",
+  "devDependencies": {
+	"type": "module",
+	"jest": {
+	        "testEnvironment": "node",
+		    "transform": {}
+		      }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jeanseven/jest.git"
+    "url": "git+https://github.com/jeanseven/jest.git"
   },
-  "keywords": [
-    "jest",
-    "-jest"
-  ],
-  "author": "jean seven",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeanseven/jest/issues"
